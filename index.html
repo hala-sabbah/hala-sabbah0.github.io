@@ -20,8 +20,9 @@
             body{
                 background-color:rgb(36, 36, 36);
                 font-size: 24px;
-				margin-left: 60px;
-				margin-right: 60px;
+				margin: 5px;
+				border: dotted 2px rgb(25,25,25);
+				Padding: 30px;
 				
             }
             
@@ -71,10 +72,12 @@
 			#image{
 				float: right;
 				margin-right: 50px;
+				border: dotted 2px rgb(25,25,25);
+				Padding: 3px;
 				
 			}
 			
-			.headerone{
+			#headerone{
 				text-align: center;
 			
 			}
@@ -103,26 +106,59 @@
 				font-family: "Arial", sans-serif;
                 font-size: 0.8em;
 			}
+			.person{
+				color: white;
+				
+			}
+			.designer{
+				color: white;
+			}
+			.wife{
+				color: white;
+			}
+            #bttt{
+				font-size: 0.8em;
+				font-style: italic;
+				font-weight: bold;
+				font-family: "Arial", sans-serif;
+				float: right;
+				
+			}
+			#sw{
+				text-align: center;
+				line-height: 3em;
+			}
+			#samplework{
+				background: rgb(82,82,82);
+				width: 100%;
+				height: 250px;
+				overflow-y: auto;
+				overflow-x: hidden;
+				text-align: center;
+				
+			}
 			
-		
-            
+			#pic1{
+				;
+				
+			}
         </style>
     </head>
     <body>
     <br>
-    <h1 class="headerone">Who is Hala Sabbah?</h1>
+    <h1 id="headerone">Who is Hala Sabbah?</h1>
     <h5 class="headertwo">A small description to introduce myself..</h5><br>
     
 	<!-- This below is the Image of my profile -->
 	
-    <img id="image" src="C:\Users\user\Desktop\Me_hala.jpg" alt="Profile Pic" >
+    <img id="image" src="C:\Users\user\Desktop\Assignment-hala\Strive profile Image.jpg" alt="Profile Pic" width="175px" >
     
     <p id="aboutme"><a href="#about-me">About me</a></p>
     <p id="professionme"><a href="#profession-me">Profession</a></p>
     <p id="hobbiesme"><a href="#hobbies-me">Hobbies</a></p>
 	<p id="contactme0"><a href="#contactmeheader">Contact me</a></p><br>
     
-    <h2 id="about-me">First of All, a Person</h2> 
+    <h2 id="about-me">First of All, a <span class="person">Person</span></h2> 
     
     
     <p id="aboutme2"> Born on 25th of May 1993, Lebanese, Female, and now learning how to code from zero. Known through these <strong>characteristics:</strong></p>
@@ -141,7 +177,7 @@
         
     </h5>
     
-    <h2 id="profession-me">A Designer... Interior and Exterior Oriented</h2>
+    <h2 id="profession-me">A <span class="designer">Designer</span>... Interior and Exterior Oriented</h2>
     
     <p id="profession2"><em>Five</em> years of Experience working through my:</p><br>
         
@@ -150,7 +186,7 @@
     <ol>
         <h4><li><Strong>Software Skills:</strong></li></h4>
         <ul>
-            <li>3dsMax / Vray/ Corona Rendering Engine</li>
+            <li>3dsMax / V-ray/ Corona Rendering Engine</li>
             <li>AutoCad 2D and 3D</li>
             <li>AutoDesk Revit</li>
             <li>Microsoft Office <em>(W, EX, and PP)</em></li>
@@ -160,7 +196,7 @@
         
         <h4><li><Strong>Interpersonal Skills:</Strong></li></h4>
         <ul>
-            <li>Langauge Proficiency <em>(written, read, spoken)</em>: Arabic and English - <strong><em>Now learning German</em></strong></li>
+            <li>Language Proficiency <em>(written, read, spoken)</em>: Arabic and English - <strong><em>Now learning German</em></strong></li>
             <li>Good Communication Skills</li>
             <li>Maintenance of Position Attitude</li><br>
         </ul>
@@ -211,16 +247,22 @@
         </table></h4>
     <br><br>
     
+    <div id="samplework"><p id="sw"> Samples of work</p>
+	<img id="pic1" src="C:\Users\user\Desktop\Assignment-hala\1.jpg" alt="Rendered Living Room">
+	<img src="C:\Users\user\Desktop\Assignment-hala\6.2.jpg" alt="Rendered Landscape"><br><br><br>
+	</div>
+	
+	<br><br><p id="bttt"><a  href="#headerone"> Back to the Top</a></p>
+	<br><br><br>
     
+    <h2 id="hobbies-me">And Finally a <span class="wife">Wife</span></h2><br>
     
-    <h2 id="hobbies-me">And Finally a Wife</h2><br>
-    
-    <h4><Strong>What I <em class="love">love</em>:</Strong></h4>
+    <h4><Strong>What I <em class="love">like</em>:</Strong></h4>
     <h5>I love to <strong><em>read a new book</em></strong> every week, prepare healthy meals, try new receipes, travel from time to time, go to gym hopefully:P, and even clean my apartment on Sundays! Not to forget remote jobs.<br>
         </h5>
-        <h4>What I <em class="hate">hate</em>:<br></h4>
+        <h4>What I <em class="hate">dislike</em>:<br></h4>
         
-        <h5>Sometimes people, Over-love treatment, and mostly judgements. I also hate being forced to be nice in times when I feel like being NOT NICE. Called with cute joke names by my loving Nana annoyes me too.
+        <h5>Sometimes nagging people, Over-love treatment, and mostly judgments. I also hate being forced to be nice in times when I feel like being NOT BEING NICE. Called with cute joke names by my loving Nana annoys me too.
     </h5><br>
     
     <h2 id="contactmeheader">Contact me </h2><br>
@@ -229,7 +271,9 @@
 Telephone: +96176696035 <br>
 Skype: live.halasabbah93 <br><br>
 <strong>And also check out my Portfolio on:</strong><br><br>
-<a target="_blank" href="https://halasabbah.github.io/">http//:halasabbah.github.io</a></p></h4><br><br>
+<a target="_blank" href="https://halasabbah.github.io/">http//:halasabbah.github.io</a><br><br><br>
+<p id="bttt"><a  href="#headerone"> Back to the Top</a></p>
+</p></h4><br><br><br><br><br>
 
     </body>
 </html>
